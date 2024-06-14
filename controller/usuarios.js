@@ -13,11 +13,20 @@ const usuariosGet = (req = request,res = response) =>{
 		limit
 	})
 }
-usuariosPut
-usuariosPost
-usuariosDelete
-usuariosPatch
+const usuariosPut = () => {
+}
+
+const usuariosPost = () => {
+}
+const usuariosDelete = () => {
+}
+const usuariosPatch = () => {
+}
 
 module.exports = {
-	usuariosGet
+	usuariosGet,
+	usuariosPut,
+	usuariosPost,
+	usuariosDelete,
+	usuariosPatch
 }
