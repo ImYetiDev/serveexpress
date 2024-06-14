@@ -17,3 +17,7 @@ usuariosPut
 usuariosPost
 usuariosDelete
 usuariosPatch
+
+module.exports = {
+	usuariosGet
+}
